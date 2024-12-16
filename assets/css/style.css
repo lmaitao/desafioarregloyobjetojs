@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+#Hero-Section {
+    background-image: url("../img/coverhero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    min-height: 100vh;
+}
+
+.div-container {
+    display: flex;
+    gap: 200px;
+    justify-content:center
+}
+
+.div-container .div-item h2 {
+    color: black;
+}
+.div-item {
+    width: 350px;
+    height: 350px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+a {
+        text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+section .row {
+    padding-top:30px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    filter: saturate(0%);
+    transition: all 0.3s ease-out;
+}
+
+.card:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+    filter: saturate(100%);
+}
+
+.card img {
+    width: 80%;
+    object-fit: cover;
+}
+
+#listaPropiedades {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.propiedad {
+    width: 350px;
+
+}
